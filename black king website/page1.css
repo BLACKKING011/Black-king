@@ -1,0 +1,277 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a0a07;
+    color: white;
+    position: relative;
+    margin: 0;
+    overflow: -moz-hidden-unscrollable;
+   
+}
+
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+.logo img {
+    height: 40px;
+
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+.menu-btn {
+    display: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.hero .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+.hero h1 {
+    font-size: 40px;
+}
+.cta-btn {
+    background: red;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Curriculum */
+.curriculum {
+    text-align: center;
+    padding: 40px 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+button {
+    padding: 15px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    background: #f8d7da;
+    color: black;
+    font-weight: bold;
+}
+.download {
+    background: red;
+    color: white;
+}
+
+/* Pricing */
+.pricing {
+    text-align: center;
+    padding: 40px;
+}
+.plan {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background: black;
+    
+}
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin: 5px 0;
+}
+
+/* Newsletter */
+.newsletter {
+    background: #222;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+input {
+    padding: 10px;
+    width: 60%;
+    margin-top: 10px;
+}
+button {
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #2d1a15;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.reviews {
+    text-align: center;
+    padding: 30px;
+}
+
+.reviews h2 {
+    color: #ff4a4a;
+}
+
+.review-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.enroll-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #ff4a4a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 40px;
+    background: #280e0a;
+}
+
+.newsletter form input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.newsletter form button {
+    padding: 10px 20px;
+    background: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    padding: 30px;
+    background: #140807;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact, .social-media {
+    text-align: center;
+}
+
+.social-media .icons img {
+    width: 30px;
+    margin: 5px;
+}
+
+.legal {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.legal a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.disclaimer, .refund-policy {
+    padding: 20px;
+    background: #200d09;
+    font-size: 12px;
+}
+
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
