@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit</title>
+    <link rel="stylesheet" href="deposit.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Deposit</h1>
+       
+
+        <!-- Payment Method Selection -->
+        <label for="payment-method">Payment method</label>
+        <select id="payment-method">
+            <option value="bank">Online Bank Transfer</option>
+            <option value="bitcoin">Bitcoin (BTC)</option>
+        </select>
+
+        <!-- Bank Transfer Details -->
+        <div id="bank-transfer">
+           
+                <div class="bank-details">
+                    <p>Bank: Opay Digital Services Limited</p>
+                    <p>Account Name: Opay Digital Services Limited</p>
+                    <p>Account Number: 8127461207</p>
+                    <P>Account  Name: Micheal Emenalom</P>
+                    <p>Bank: Opay Digital Services Limited</p>
+                    <p>Swift Code: OPAYNGLA</p>
+                </div>
+            </div>
+           
+
+            <div class="info-box">
+                <strong>Important</strong>
+                <p>To avoid delays, transfer the exact amount.</p>
+                <h3>Monthly Plan</h3>
+                <p class="price">$79.00-₦100,000</p>
+                <h3>Yearly Plan</h3>
+                <p class="price">$499.00-₦700,000</p>
+                <p>Processing time: Instant - 45 minutes</p>
+                <p>Note: If you are using a different bank, please ensure that the name on the account matches the name on your ID.</p>
+
+            </div>
+        </div>
+
+        <!-- Bitcoin Payment -->
+        <div id="bitcoin-transfer" style="display: none;">
+            <label>Bitcoin Address</label>
+            <div class="btc-box">
+                <input type="text" id="btc-address" value="bc1q8u7jcnl4cgwrap4585nzhqq4cgaty7hxxn6chm" readonly />
+                <button onclick="copyAddress()">Copy</button>
+            </div>
+            <img src="69F0E0DD-172B-48D7-85F7-B90EE446E1AA.jpeg" alt="QR Code" class="qr-code">
+        </div>
+
+    </div>
+
+    <script src="deposit.js"></script>
+</body>
+</html>
